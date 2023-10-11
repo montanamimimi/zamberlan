@@ -1,0 +1,24 @@
+{
+  "name": "zamberlan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montanamimimi/zamberlan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montanamimimi/zamberlan/issues"
+  },
+  "homepage": "https://github.com/montanamimimi/zamberlan#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "^2.10.0"
+  }
+}
