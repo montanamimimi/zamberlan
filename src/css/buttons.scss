@@ -1,0 +1,17 @@
+@import 'colors.scss';
+
+.button {
+    display: block;
+    cursor: pointer;
+}
+
+.button--big {
+    font-size: 16px; 
+    padding: 18px 28px;
+    text-transform: uppercase;
+}
+
+.button--white {
+    color: $darkgrey;
+    background-color: rgba(255, 255, 255, 0.60);
+}

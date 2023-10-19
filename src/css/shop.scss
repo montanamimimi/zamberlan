@@ -1,0 +1,62 @@
+.shop {
+
+    .introduction {
+
+        display: flex;
+
+        .left {
+
+            width: 65%;
+            padding: 0 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+        }
+
+        .right {
+            width: 40%;
+            padding: 0 35px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .map {
+                height: 280px;
+                width: 100%;
+                background-image: url('../img/map.jpg');
+                background-size: cover;
+            }
+        }
+
+    }
+
+}
+
+
+@media (max-width: 720px) {
+
+    .shop {
+        .introduction {
+            flex-direction: column;
+
+            .left {
+                width: 100%;
+                padding: 0 10px;
+                margin-bottom: 20px;
+            }
+
+            .right {
+                width: 100%;
+                padding: 0 10px;
+                flex-direction: column-reverse;
+
+                .map {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    
+}

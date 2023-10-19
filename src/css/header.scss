@@ -1,0 +1,86 @@
+@import 'colors.scss';
+
+header {
+
+    .topline {
+        background-color: $orange;
+        height: 50px;
+        color: white;
+
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            height: 100%;
+        }
+
+        .phone {
+
+            &__icon {
+                margin-right: 8px;
+            }
+        }
+    }
+
+    .head {
+
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            width: 200px;
+            height: 34px;
+            background-image: url('../img/Logo.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .menu {
+
+            ul {
+                display: flex;
+
+                a {
+                    padding-left: 40px;
+                }
+
+                li {
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    color: $darkgrey;
+                }
+            }
+
+        }
+
+    }
+}
+
+@media (max-width: 640px) {
+
+    header {
+
+        .menu {
+            display: none;
+        }
+
+        .head {
+            height: 80px;
+            justify-content: center;
+        }
+
+        .topline {
+    
+            &__container {
+
+                justify-content: center;
+
+            }
+
+        }
+    }
+
+    
+}
